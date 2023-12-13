@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+.page{
+    border: 5px solid red;
+    display: flex;
+    height: 780px;
+    overflow-y: hidden;
+    flex-direction : row ;
+    justify-content :center;
+    align-items: center;
+    background-color: white;
+}
+
+.page .gauche{
+    width: 50vw ;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.page .gauche .position {
+
+    text-align: center;
+}
+
+.page .gauche .position h2{
+
+    font-size: 2rem;
+}
+
+span{
+
+    text-decoration: underline;
+}
+
+.page .droite{
+    width: 50vw;
+    height: 780px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    color: #fff;
+    background-color: rgb(219, 104, 27)
+}
+
+.page .droite h3{
+    text-align: center;
+}
+.droite div {
+    display: flex;
+    flex-direction: row;
+}
+.droite div i{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+}
+.page .droite p{
+    text-align: center;
+    font-weight: bold;
+}
+.page .droite h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.page .group img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
